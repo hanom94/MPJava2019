@@ -7,5 +7,6 @@ public class Main {
         System.out.println("Hello!!!!!!!");
         System.out.println("Add new string");
         System.out.println("Add 3th string");
+        System.out.println("Add 4th string");
     }
 }
