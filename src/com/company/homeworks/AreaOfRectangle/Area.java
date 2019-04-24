@@ -9,7 +9,7 @@ public class Area extends Shape {
     double P = 3.141592653589793;
 
     @Override
-    public int rectangleArea(double length, double breadth) {
+    public double rectangleArea(double length, double breadth) {
         this.length = length;
         this.breadth = breadth;
         double rectangleAreaResult = this.length * this.breadth;
@@ -17,17 +17,17 @@ public class Area extends Shape {
     }
 
     @Override
-    public int squareArea(double side) {
+    public double squareArea(double side) {
         this.side = side;
         double squareAreaResult = this.side * this.side;
         return (int) squareAreaResult;
     }
 
     @Override
-    public int circleArea(double radius) {
+    public double circleArea(double radius) {
         this.radius = radius;
         double circleAreaResult = P * this.radius;
-        return (int) circleAreaResult;
+        return circleAreaResult;
     }
 
     /*public void rectangleAreaPrint(){
